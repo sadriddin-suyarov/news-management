@@ -1,0 +1,5 @@
+include 'common'
+include 'web'
+include 'persistence'
+include 'configuration'
+include 'service'
