@@ -1,10 +1,7 @@
 spring:
   jpa:
+    show-sql: true
     hibernate:
       ddl-auto: none
-    show-sql: true
-
-  sql:
-    init:
-      schema-locations: classpath:schema.sql
-      mode: embedded
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
